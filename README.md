@@ -77,13 +77,17 @@ Make sure you have Node.js and npm (or Yarn) installed on your machine.
    yarn install
    ```
 
-4. Install dependencies
+4. Setup environment variables
+
+   - Create a `.env` file in the root of the project and add the necessary environment variables. Refer to the `.env.example` file for guidance.
+
+5. Start the development server
 
    ```sh
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Implementation
 
