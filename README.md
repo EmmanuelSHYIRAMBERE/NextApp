@@ -78,9 +78,12 @@ Make sure you have Node.js and npm (or Yarn) installed on your machine.
    ```
 
 4. Install dependencies
+
    ```sh
    npm run dev
    ```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Implementation
 
@@ -96,8 +99,8 @@ Make sure you have Node.js and npm (or Yarn) installed on your machine.
 - `Components`: Developed reusable React components
 - `API Routes`: Created various API routes for handling authentication and CRUD operations
 - `Prisma ORM`:
-  - [] Configured Prisma client
-  - [] Defined Prisma schema and migrations
+  - Configured Prisma client
+  - Defined Prisma schema and migrations
 - `Authentication`: Implemented authentication provider setup
 
 ## Contributing
