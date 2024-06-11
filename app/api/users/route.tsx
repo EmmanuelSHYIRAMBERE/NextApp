@@ -30,7 +30,6 @@ export async function POST(request: NextRequest) {
     data: {
       name: body.name,
       email: body.email,
-      role: body.role ? body.role : "user",
     },
   });
 
